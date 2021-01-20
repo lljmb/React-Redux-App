@@ -11,7 +11,5 @@
 
 body {
   box-sizing: border-box;
-  width: 75%;
   overflow-x: hidden;
-  font-family: "Lato", sans-serif;
 }

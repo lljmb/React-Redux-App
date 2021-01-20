@@ -6,7 +6,7 @@ const Facts = ({fact, isFetching, error, getFact }) => {
 
     useEffect(() => {
         getFact();
-      }, []); // eslint-disable-line react-hooks/exhaustive-deps
+      }, [getFact]); 
 
     const handleClick = () => {
         getFact();
